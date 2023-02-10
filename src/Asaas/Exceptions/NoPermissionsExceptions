@@ -1,0 +1,7 @@
+<?php
+
+namespace Asaas\Http\Exceptions;
+
+class NoPermissionsException extends RequestFailedException
+{
+}

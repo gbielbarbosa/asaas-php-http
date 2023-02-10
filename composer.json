@@ -1,0 +1,28 @@
+
+{
+    "name": "gbielbarbosa/asaas-php-http",
+    "description": "Client HTTP usado para comunicação com a API do Asaas.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gabriel Barbosa",
+            "email": "gabrielbarbosak1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Asaas\\Http\\": "src/Asaas"
+        }
+    },
+    "require": {
+        "php": "^7.2|^8.0",
+        "react/http": "^1.2",
+        "psr/log": "^1.1"
+    },
+    "require-dev": {
+        "monolog/monolog": "^2.2",
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "psy/psysh": "^0.10.6"
+    }
+}
